@@ -10,14 +10,17 @@ Durante o projeto, explorei:
 O projeto foi desenvolvido utilizando Pandas, NumPy, Matplotlib e Seaborn, colocando em prática conceitos de estatística e análise de dados que venho estudando no MBA em Data Science, Inteligência Artificial e Analytics da USP/ESALQ.
 
 
-## Matriz de Pearson
+<h2>Matriz de Pearson</h2>
+<p align="center">
+  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.00.png" width="600">
+</p>
 
-![Matriz de Pearson](Captura%20de%20Tela%202026-06-22%20às%2015.44.00.png)
+<h2>Estado de depressão</h2>
+<p align="center">
+  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.10.png" width="600">
+</p>
 
-## Estado de depressão
-
-![Estado de depressão](Captura%20de%20Tela%202026-06-22%20às%2015.44.10.png)
-
-## Sintomas de depressão severa
-
-![Sintomas de depressão severa](Captura%20de%20Tela%202026-06-22%20às%2015.44.37.png)
+<h2>Sintomas de depressão severa</h2>
+<p align="center">
+  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.37.png" width="600">
+</p>
