@@ -11,16 +11,10 @@ O projeto foi desenvolvido utilizando Pandas, NumPy, Matplotlib e Seaborn, coloc
 
 
 <h2>Matriz de Pearson</h2>
-<p align="center">
-  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.00.png" width="600">
-</p>
+<img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.00.png" width="600">
 
 <h2>Estado de depressão</h2>
-<p align="center">
-  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.10.png" width="600">
-</p>
+<img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.10.png" width="600">
 
 <h2>Sintomas de depressão severa</h2>
-<p align="center">
-  <img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.37.png" width="600">
-</p>
+<img src="Captura%20de%20Tela%202026-06-22%20às%2015.44.37.png" width="600">
