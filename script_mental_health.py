@@ -16,22 +16,7 @@ dataset.head(10) #10 primeiras linhas do arquivo
 dataset.tail(10) #ultimas linhas nao possuem dados
 dataset.iloc[540] #localizando onde começam os dados nulos. 
 
-
-# Limpeza de dados
-nulos = dataset.isnull().sum() #identificando os nulos
-Duplicados = dataset.duplicated().sum() #identificando duplicados
-dataset.dropna(inplace=True) #excluindo os dados nulos (NAN),
-dataset['Estado_Depressao'] = (
-    dataset['Estado_Depressao']
-    .astype(str)
-    .str.replace(r'^\d+', '', regex=True)  # remove números do início
-    .str.replace('\t', '', regex=False)    # remove tabulações
-    .str.strip()                           # remove espaços nas pontas
-)#limpando nomes da coluna
-
-    
-
-#Renomeando colunas 
+#Renomeando colunas
 dataset=dataset.rename(columns={'Number':'Numero',
                'Sleep': 'Sono',
     'Appetite': 'Apetite',
@@ -48,6 +33,22 @@ dataset=dataset.rename(columns={'Number':'Numero',
     'Restlessness': 'Inquietacao',
     'Low Energy': 'Baixa_Energia',
     'Depression State': 'Estado_Depressao'})
+
+# Limpeza de dados
+nulos = dataset.isnull().sum() #identificando os nulos
+Duplicados = dataset.duplicated().sum() #identificando duplicados
+dataset.dropna(inplace=True) #excluindo os dados nulos (NAN),
+dataset['Estado_Depressao'] = (
+    dataset['Estado_Depressao']
+    .astype(str)
+    .str.replace(r'^\d+', '', regex=True)  # remove números do início
+    .str.replace('\t', '', regex=False)    # remove tabulações
+    .str.strip()                           # remove espaços nas pontas
+)#limpando nomes da coluna
+
+    
+
+
 
 #%% Analisando os dados
 
